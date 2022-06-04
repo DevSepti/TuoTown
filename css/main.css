@@ -92,6 +92,14 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
+.font-family-jura {
+    font-family: 'Jura', sans-serif;
+}
+
+.font-family-monserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
 a {
     text-decoration: none;
 }
@@ -204,10 +212,73 @@ ul {
 }
 
 .hero__headng {
-    font-family: 'Jura';
+    max-width: 602px;
+    margin-bottom: 24px;
     font-style: normal;
     margin-top: 77px;
     font-weight: 400;
     font-size: 41px;
     line-height: 48px;
+
+}
+
+.hero__description {
+    max-width: 447px;
+    margin-bottom: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.hero__btn {
+    padding: 16px 34px;
+    margin-bottom: 68px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+    background-color: rgba(33, 33, 33, 0);
+    border: 2px solid red;
+    border-radius: 27px;
+}
+
+.hero-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 128px;
+}
+
+.slider-item {
+    margin-right: 36px;
+}
+
+.slider-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+}
+
+.slider-left {
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+    background: url('../img/slider-arrow-left.svg');
+}
+
+.slider-right {
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+    background: url('../img/slider-arrow-right.svg');
 }
