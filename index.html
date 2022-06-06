@@ -7,9 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/main.css">
-    
+    <link rel="stylesheet" href="./css//media.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@500&display=swap" rel="stylesheet">
 
-    
+
+
+
     <script defer src="./js/main.js"></script>
     <title>TUOTOWN</title>
 </head>
@@ -19,7 +25,6 @@
         <nav class="navigation">
             <div class="container">
                 <ul class="navigation__list">
-
                     <div class="navigation__left-content">
                         <li class="navigation__item">
                             <a href="" class="navigation__link-item">
@@ -28,12 +33,22 @@
                         </li>
                         <li class="navigation__item">
                             <a href="" class="navigation__link-item">
-                                <img src="./img/button-map.svg" alt="кнопка карта" class="ite__btn-map item-icon">
+                                <img src="./img/button-map.svg" alt="кнопка карта" class="item__btn-map item-icon">
                             </a>
                         </li>
                         <li class="navigation__item">
-                            <a href="tel:+79994221864" class="navigation__link-item font-family-monserrat">
+                            <a href="tel:+79994221864" class="navigation__link-item">
                                 <p class="navigation-phone">8 981 120-11-17</p>
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="tel:+79994221864" class="navigation__link-item">
+                                <img src="./img/header-icon-phone.svg" alt="icon-phone" class="link-item__phone-icon item-icon">
+                            </a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="" class="navigation__link-item">
+                                <img src="./img/header-shop.svg" alt="кнопка магазин" class="item__btn-shop-left item-icon">
                             </a>
                         </li>
                     </div>
@@ -63,23 +78,33 @@
                     </div>
                 </ul>
             </div>
+            <hr class="line320px-header">
         </nav>
+        
         <div class="container section-hero">
             <div class="hero__content">
-                <h1 class="hero__headng font-family-jura">
+                <h1 class="hero__headng">
                     Исключительное качество без компромиссов
                 </h1>
                 <p class="hero__description font-family-monserrat">
                     Ножи «Tuotown» – это главный инструмент поваров и секрет кулинарного мастерства
                 </p>
-                <button class="hero__btn">
+                <a href="" class="btn hero__btn">
                     ПОДРОБНЕЕ
-                </button>
+                </a>
+
+                <div class="hero__moblie-container">
+                    <a href="" class="btn hero-btn-media-320">
+                        КУПИТЬ
+                    </a>
+                    <p class="hero__price">48 тыс. р.</p>
+                </div>
+                
             </div>
-            <div class="hero-swiper"></div>
+            
         </div>
         <div class="container hero-slider">
-            <button class="slider-left"></button>
+            <a href="" class="slider-left"></a>
             <ul class="slider-list">
                 <li class="slider-item">
                     <a href="" class="slider-btn">1</a>
@@ -94,7 +119,7 @@
                     <a href="" class="slider-btn">4</a>
                 </li>
             </ul>
-            <button class="slider-right"></button>
+            <a href="" class="slider-right"></a>
         </div>
     </header>
 </body>
