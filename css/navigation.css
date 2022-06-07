@@ -1,0 +1,73 @@
+.navigation {
+    background: rgba(33, 33, 33, 0.8);
+    backdrop-filter: blur(4px);
+    height: 71px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigation__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-icon {
+    width: 24px;
+    height: 24px;
+    margin: 24px 0;
+    margin-right: 24px;
+}
+
+.item-icon:not(:last-child) {
+
+    margin-right: 0px;
+}
+
+.navigation__item {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.navigation__left-content {
+    display: flex;
+    align-items: center;
+    margin-right: 0;
+}
+
+.link-item__phone-icon {
+    display: none;
+}
+
+.item__btn-shop-left {
+    display: none;
+}
+
+.navigation__right-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navigation__center-content {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.item__logo {
+    width: 146px;
+    height: 35px;
+}
+
+.navigation-phone {
+    font-family: 'Jura';
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    color: white;
+    margin-left: 10px;
+}

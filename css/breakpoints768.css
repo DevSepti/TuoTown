@@ -1,0 +1,39 @@
+/* breakpoints768px */
+@media(max-width:768px) {
+    /* main container */
+    .container {
+        max-width: 630px;
+    }
+
+    .header {
+        background-image: url(/Портфолио/TuoTown/img/header-background-768.png);
+    }
+
+    .navigation {
+        background: none;
+    }
+
+    .navigation__right-content {
+        display: none;
+    }
+
+    .hero__content {
+        padding: 0;
+    }
+
+    .hero__headng {
+        margin-top: 60px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .hero__description {
+        margin-bottom: 27px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .hero-slider {
+        margin-top: 201px;
+    }
+}

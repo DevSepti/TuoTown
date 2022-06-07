@@ -1,0 +1,17 @@
+/* breakpoints 1200px */
+@media(max-width:1200px) {
+    /* main container */
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 15px;
+    }
+
+    .header {
+        background-size: auto;
+    }
+
+    .navigation__center-content {
+        width: 40%;
+    }
+}

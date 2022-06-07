@@ -1,0 +1,91 @@
+.hero__content {
+    padding-left: 69px;
+    max-width: 602px;
+}
+
+.hero__headng {
+    max-width: 602px;
+    margin-bottom: 24px;
+    margin-top: 77px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 48px;
+    text-transform: uppercase;
+
+}
+
+.hero__description {
+    max-width: 447px;
+    margin-bottom: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.hero__moblie-container {
+
+    display: flex;
+}
+
+.hero__btn {
+    background-color: rgba(33, 33, 33, 0);
+    border: 2px solid red;
+    margin-bottom: 86px;
+}
+
+.hero-btn-media-320 {
+    width: 50%;
+    margin-right: 30px;
+    display: block;
+    background-color: #C80000;
+}
+
+.hero__price {
+    width: 50%;
+}
+
+.hero__moblie-container {
+    display: none;
+}
+
+.hero-slider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 86px;
+}
+
+.slider-list {
+    display: flex;
+    justify-content: space-between;
+    max-width: 128px;
+}
+
+.slider-item {
+    margin-right: 36px;
+}
+
+.slider-btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: white;
+}
+
+.slider-left {
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+    background: url('../img/slider-arrow-left.svg');
+}
+
+.slider-right {
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+    background: url('../img/slider-arrow-right.svg');
+}

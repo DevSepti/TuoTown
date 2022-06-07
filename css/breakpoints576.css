@@ -1,0 +1,50 @@
+
+/* breakpoints 576px */
+@media(max-width:576px) {
+
+    .header {
+        background-size: auto;
+    }
+
+    /* navigation */
+    .navigation-phone {
+        display: none;
+    }
+
+    .link-item__phone-icon {
+        display: flex;
+    }
+
+    .navigation-phone {
+        font-family: 'Jura', sans-serif;
+    }
+
+    .item__btn-shop-left {
+        display: flex;
+    }
+
+    .item-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navigation__center-content {
+        width: auto;
+    }
+
+    .item__logo {
+        width: 146px;
+        height: 35px;
+        margin-right: auto;
+    }
+
+    .hero__content {
+        padding-left: 15px;
+    }
+
+    /* slider */
+
+    .hero-slider {
+        display: none;
+    }
+}

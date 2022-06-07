@@ -1,0 +1,74 @@
+/* breakpoints 320px */
+@media(max-width: 320px) {
+
+    .header {
+        background-image: url(/Портфолио/TuoTown/img/header-background-320.png);
+    }
+
+    .navigation {
+        height: 43px;
+        background: none;
+    }
+
+    .navigation__center-content {
+        width: auto;
+    }
+
+    .item-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* .navigation__item {
+        width: 20px;
+        height: 20px;
+    } */
+
+    .item__btn-map {
+        display: none;
+    }
+
+    .navigation-phone {
+        display: none;
+    }
+
+    .link-item__phone-icon {
+        display: block;
+    }
+
+    .item__btn-shop-left {
+        display: flex;
+    }
+
+    .navigation__center-content {
+        margin: 0;
+    }
+
+    .item__logo {
+        width: 100px;
+        height: 24px;
+    }
+
+    .navigation__right-content {
+        display: none;
+    }
+
+    .hero__description {
+        max-width: 215px;
+        margin-bottom: 8px;
+        font-size: 14px;
+        line-height: 140%;
+    }
+
+    .hero__btn {
+        display: none;
+    }
+
+    .hero__moblie-container {
+        display: flex;
+    }
+
+    .hero-slider {
+        display: none;
+    }
+}

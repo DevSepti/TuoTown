@@ -1,0 +1,11 @@
+.header {
+    height: 590px;
+    background-image: url('../img/header-background.png');
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: #373737;
+    margin: 0;
+    padding: 0;
+    color: white;
+}

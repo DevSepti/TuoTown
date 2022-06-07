@@ -1,0 +1,31 @@
+.categories__list {
+    display: flex;
+    padding: 60px 88px;
+    justify-content: space-between;
+}
+
+.categories__link-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categories__item-icon:active {
+    fill: #FF0000;
+}
+
+.text-item {
+    margin-top: 31px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+
+.svg,
+.text-item:hover {
+    
+    color: #FF0000;
+}
