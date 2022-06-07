@@ -1,6 +1,10 @@
+.categories__container {
+    padding: 60px 0;
+    margin: 0 80px;
+}
+
 .categories__list {
     display: flex;
-    padding: 60px 88px;
     justify-content: space-between;
 }
 
@@ -8,10 +12,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.categories__item-icon:active {
-    fill: #FF0000;
 }
 
 .text-item {
@@ -26,6 +26,6 @@
 
 .svg,
 .text-item:hover {
-    
+    fill: #FF0000;
     color: #FF0000;
 }

@@ -7,11 +7,17 @@
         padding: 0 15px;
     }
 
+    /* header */
     .header {
         background-size: auto;
     }
 
     .navigation__center-content {
         width: 40%;
+    }
+
+    /* section categories */
+    .categories__container {
+        margin: 0;
     }
 }

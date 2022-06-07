@@ -48,8 +48,10 @@ ul {
     width: 100%;
 } */
 
-.hr {
-    background:linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 218, 124, 1) 54%);;
-    /* background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 218, 124, 1) 54%); */
+.line320px-header {
+    display: none;
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(189,162,96,1) 50%, rgba(0,0,0,1) 100%);
 }
 

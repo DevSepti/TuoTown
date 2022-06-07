@@ -1,0 +1,16 @@
+@media(max-width:620px) {
+    /* catigories */
+    .categories {
+        display: none;
+    }
+
+    /* products */
+    .section-products {
+        display: none;
+    }
+
+    /* description-card */
+    .section-description {
+        display: block;
+    }
+}

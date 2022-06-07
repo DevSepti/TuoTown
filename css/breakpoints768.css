@@ -6,7 +6,7 @@
     }
 
     .header {
-        background-image: url(/Портфолио/TuoTown/img/header-background-768.png);
+        background-image: url('../img/header-background-768.png');
     }
 
     .navigation {
@@ -35,5 +35,13 @@
 
     .hero-slider {
         margin-top: 201px;
+    }
+
+    .item-first {
+        width: 100%;
+    }
+
+    .product__item-first {
+        width: 100%;
     }
 }

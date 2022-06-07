@@ -2,7 +2,7 @@
 @media(max-width: 320px) {
 
     .header {
-        background-image: url(/Портфолио/TuoTown/img/header-background-320.png);
+        background-image: url('../img/header-background-320.png');
     }
 
     .navigation {
@@ -17,6 +17,10 @@
     .item-icon {
         width: 20px;
         height: 20px;
+    }
+
+    .line320px-header {
+        display: block;
     }
 
     /* .navigation__item {
@@ -70,5 +74,14 @@
 
     .hero-slider {
         display: none;
+    }
+
+    /* discription-card */
+    .description-card__heading {
+        font-size: 18px;
+    }
+    
+    .description-card__text {
+        font-size: 13px;
     }
 }

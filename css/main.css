@@ -3,10 +3,15 @@
 @import url('./hearer.css');
 @import url('./navigation.css');
 @import url('./hero.css');
+@import url('./section-categories.css');
+@import url('./section-products.css');
+@import url('./section-description-card.css');
+@import url('./main-form.css');
+
+
 @import url('./breakpoints1200.css');
 @import url('./breakpoints992.css');
 @import url('./breakpoints768.css');
+@import url('./breakpoints620.css');
 @import url('./breakpoints576.css');
 @import url('./breakpoints320.css');
-@import url('./section-categories.css');
-@import url('./section-products.css');
