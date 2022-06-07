@@ -13,7 +13,6 @@ html,body {
 
 body {
     background-color: #373737;
-    
     margin: 0;
 }
 
@@ -40,7 +39,7 @@ ul {
     margin-right: auto;
 }
 
-.wreper__content {
+.wrapper {
     flex: 1;
 }
 
@@ -50,8 +49,15 @@ ul {
 
 .line320px-header {
     display: none;
+    margin: 0;
     border: 0;
     height: 1px;
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(189,162,96,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+.section-line {
+    height: 1px;
+    opacity: 0.1;
+    color: white;
 }
 

@@ -1,0 +1,39 @@
+.form__heading {
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 17px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 42px;
+    color: #FFFFFF;
+
+}
+
+.main-form {
+    display: flex;
+    justify-content: space-between;
+    width: 273px;
+    padding: 20px 26px;
+    border-radius: 6px;
+    background-color: #272727;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 49px;
+}
+
+.form__input-email {
+    border: none;
+    background: none;
+    color: white;
+    font-size: 15px;
+}
+
+.form__submit-btn {
+
+    background: url('../img/arrow-submit.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+    cursor: pointer;
+}

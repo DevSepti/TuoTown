@@ -1,3 +1,11 @@
+.section-hero {
+    width: 100%;
+    padding-top: 70px;
+    color: #ffffff;
+    background-color: #000000;
+    background: url("../img/header-background.png") center center / cover no-repeat;
+}
+
 .hero__content {
     padding-left: 69px;
     max-width: 602px;
@@ -56,6 +64,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 86px;
+    padding-bottom: 76px;
 }
 
 .slider-list {

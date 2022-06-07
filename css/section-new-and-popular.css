@@ -1,0 +1,29 @@
+.section-new-and-popular {
+    margin-top: 60px;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+}
+
+.new-and-popular__heading {
+    cursor: pointer;
+    opacity: 0.5;
+    margin-right: 20px;
+}
+
+.heading_active {
+    opacity: 1;
+    border-bottom: 1px solid red;
+}
+
+

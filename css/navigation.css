@@ -1,16 +1,11 @@
-.navigation {
-    background: rgba(33, 33, 33, 0.8);
-    backdrop-filter: blur(4px);
-    height: 71px;
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .navigation__list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .item-icon {
