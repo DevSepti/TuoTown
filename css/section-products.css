@@ -1,16 +1,18 @@
 .products__list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.item-first {
+.product__item-first {
     display: flex;
     align-items: flex-end;
     width: 590px;
     height: 481px;
     padding: 0 26px;
     border-radius: 14px;
+    margin-left: 12px;
+    margin-bottom: 25px;
     background-image: url('../img/product-first-background.png');
     background-size: cover;
 }
@@ -30,9 +32,11 @@
     margin-left: auto;
 }
 
-.products__item {
+.products__item + .products__item {
     margin-bottom: 25px;
+    margin-left: 12px;
 }
+
 
 .products__card {
     width: 286px;
