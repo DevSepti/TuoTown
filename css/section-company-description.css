@@ -1,0 +1,63 @@
+.company-description {
+    margin-top: 60px;
+}
+
+.description__top-container {
+    display: flex;
+}
+
+.company-description__img {
+    margin-right: 80px;
+}
+
+.top-container__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 672px;
+}
+
+.company-description__heading {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.company-description__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    opacity: .8;
+}
+
+.description__bottom-container {
+    display: flex;
+    margin-top: 39px;
+}
+
+.bottom-container__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.company-description__img2 {
+    margin-left: 86px;
+}
+
+.conteiner-table {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.table__text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

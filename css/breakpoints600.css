@@ -1,0 +1,11 @@
+@media(max-width:600px){
+    .products__item {
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-line {
+        display: none;
+    }
+}

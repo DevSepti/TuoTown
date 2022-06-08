@@ -1,0 +1,68 @@
+.section-accessories {
+    display: none;
+    padding-top: 60px;
+}
+
+.accessories__heading {
+    max-width: max-content;
+    margin-bottom: 27px;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.accessories_active_heading {
+    border-bottom: 1px solid #C80000; 
+}
+
+.accessories__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.accessories__item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    width: 138px;
+    height: 100%;
+    background-color: #272727;
+    border-radius: 14px;
+    padding: 15px 8px;
+}
+
+.accessories__item-img {
+    width: 121px;
+    height: 108px;
+}
+
+.accessories__img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.accessories__more-img {
+    margin-left: auto;
+}
+
+.accessories__card-name {
+    max-width: 110px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #ADACAC;
+}
+
+.accessories__card-price {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ADACAC;
+}

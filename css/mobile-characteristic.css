@@ -1,0 +1,71 @@
+.moblie-knife-characteristic {
+    display: none;
+    background-color: #272727;
+}
+
+.characteristic-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.characteristic__heading {
+    margin: 37px 0;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    border-bottom: 1px solid #C80000;
+    ;
+}
+
+.img-container {
+    padding: 0 80px;
+}
+
+.characteristic__img {
+    width: 100%;
+}
+
+.characteristic__knife-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.characteristic__item-line {
+    height: 1px;
+    background: #4F4F4F;
+}
+
+.characteristic__item {
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.characteristic-more__link {
+    display: flex;
+    align-items: center;
+    padding: 21px 0;
+}
+
+.characteristic-more__text {
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #ADACAC;
+}

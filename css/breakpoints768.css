@@ -1,14 +1,17 @@
 /* breakpoints768px */
 @media(max-width:768px) {
+
     /* main container */
     .container {
         max-width: 630px;
     }
 
+    /* header */
     .header {
         background-image: url('../img/header-background-768.png');
     }
 
+    /* navigation */
     .navigation {
         background: none;
     }
@@ -17,6 +20,7 @@
         display: none;
     }
 
+    /* hero content */
     .hero__content {
         padding: 0;
     }
@@ -37,11 +41,106 @@
         margin-top: 201px;
     }
 
+    /* product content */
     .item-first {
         width: 100%;
     }
 
     .product__item-first {
         width: 100%;
+    }
+
+    /* description company content */
+    .description__top-container,
+    .description__bottom-container {
+        display: none;
+    }
+
+    .company-description__heading {
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 25px;
+    }
+
+    .company-description__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .company-description__img {
+        width: 100%;
+        height: 302px;
+        margin-right: 30px;
+    }
+
+    .company-description__img2 {
+        width: 100%;
+        height: 302px;
+        margin-left: 30px;
+    }
+
+    /* section news */
+
+    .news__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .news__item {
+        width: 100%;
+        height: 465px;
+        margin-bottom: 30px;
+
+    }
+
+    /* main form 2 */
+    .section-form-table {
+        display: block;
+    }
+
+    /* footer */
+    .footer-container {
+        max-width: 100%;
+        flex-direction: column;
+        padding: 0 15px;
+    }
+
+    .left-content {
+        width: 100%;
+    }
+
+    .footer__description {
+        max-width: 100%;
+    }
+
+    .center-content {
+        width: 100%;
+    }
+
+    .footer__social {
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 39px;
+    }    
+
+    .right-content {
+        width: 100%;
+    }
+
+    .contact-info-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .footer__phone {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .footer__address {
+        width: 25%;
     }
 }

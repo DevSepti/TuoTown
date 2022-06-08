@@ -23,11 +23,6 @@
         display: block;
     }
 
-    /* .navigation__item {
-        width: 20px;
-        height: 20px;
-    } */
-
     .item__btn-map {
         display: none;
     }
@@ -57,6 +52,8 @@
         display: none;
     }
 
+    /* section hero */
+
     .hero__description {
         max-width: 215px;
         margin-bottom: 8px;
@@ -70,18 +67,98 @@
 
     .hero__moblie-container {
         display: flex;
+        padding-bottom: 231px;
     }
 
     .hero-slider {
         display: none;
     }
 
+    /* section form */
+
+    .section-form {
+        display: none;
+    }
+
+    .section-new-and-popular {
+        display: none;
+    }
+
+    .moblile-gallery {
+        display: block;
+    }
+
+    .mobile-video {
+        display: block;
+    }
+
+    .moblie-knife-characteristic {
+        display: block;
+    }
+
+    .section-accessories {
+        display: block;
+    }
+
     /* discription-card */
     .description-card__heading {
         font-size: 18px;
     }
-    
+
     .description-card__text {
         font-size: 13px;
+    }
+
+    .form__heading {
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .section-line {
+        display: none;
+    }
+
+    .secntion-news {
+        display: none;
+    }
+
+    /* footer */
+    .footer__logo {
+        width: 139px;
+        height: 25px;
+    }
+
+    .footer__description-text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .footer__description {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .footer__heading {
+        font-family: 'Jura';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .footer__social {
+        flex-direction: column;
+    }
+
+    .contact-info-container {
+        display: inline;
+    }
+
+    .working-mode {
+        margin-bottom: 10px;
+    }
+
+    .footer__address {
+        display: inline;
     }
 }

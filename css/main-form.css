@@ -2,6 +2,7 @@
     text-align: center;
     margin-top: 49px;
     margin-bottom: 17px;
+    font-family: 'Jura';
     font-style: normal;
     font-weight: 500;
     font-size: 27px;
@@ -36,4 +37,8 @@
     background-repeat: no-repeat;
     border: 0;
     cursor: pointer;
+}
+
+.section-form-table {
+    display: none;
 }

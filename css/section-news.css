@@ -1,0 +1,70 @@
+.secntion-news {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.news__heading {
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-bottom: 37px;
+}
+
+.news__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 23px;
+    width: 380px;
+    height: 465px;
+    border-radius: 14px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.news__item:hover > .news__card-text{
+    background-color: #C80000;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.news__card-date {
+    margin-left: auto;
+    padding-right: 39px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.news__card-text {
+    width: 100%;
+    padding: 13px 35px 22px 35px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.item-one {
+    background-image: url('../img/news-item1.png');
+}
+
+.item-two {
+    background-image: url('../img/description-card-img.png');
+}
+
+.item-three {
+    background-image: url('../img/description-card-img2.png');
+}

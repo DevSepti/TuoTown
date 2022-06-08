@@ -1,0 +1,124 @@
+.section-footer {
+    margin-top: 60px;
+    padding: 40px 0;
+    background-color: #272727;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* left content */
+.left-content {
+    width: 35%;
+}
+
+.logo-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 29px;
+}
+
+.footer__description-text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    color: #ADACAC;
+    margin-left: 26px;
+}
+
+.footer__description {
+    max-width: 368px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #ADACAC;
+}
+
+/* center content */
+.center-content {
+    width: 35%;
+}
+
+.footer-link__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer__heading {
+    margin-bottom: 14px;
+    margin-right: 33px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer-link__item>a {
+    margin-right: 30px;
+    height: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ADACAC;
+}
+
+.footer__social {
+    display: flex;
+    margin-top: 60px;
+}
+
+/* right content */
+.right-content {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__phone {
+    margin-top: 23px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer__email,.working-mode,.footer__address  {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.footer__email {
+    margin-top: 9px;
+}
+
+.working-mode {
+    margin-top: 30px;
+}
+
+.footer__address {
+    margin-top: 18px;
+}
+
+.description-container-table {
+    display: none;
+}

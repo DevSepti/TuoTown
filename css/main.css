@@ -8,11 +8,18 @@
 @import url('./section-description-card.css');
 @import url('./main-form.css');
 @import url('../css/section-new-and-popular.css');
+@import url('../css/section-company-description.css');
+@import url('../css/section-moblile-gallery.css');
+@import url('../css/mobile-characteristic.css');
+@import url('../css/mobile-accessories.css');
+@import url('../css/section-news.css');
+@import url('../css/footer.css');
 
 
 @import url('./breakpoints1200.css');
 @import url('./breakpoints992.css');
 @import url('./breakpoints768.css');
 @import url('./breakpoints620.css');
+@import url('./breakpoints600.css');
 @import url('./breakpoints576.css');
 @import url('./breakpoints320.css');
